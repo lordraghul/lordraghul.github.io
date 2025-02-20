@@ -229,15 +229,16 @@ export default {
         this.buttonText = 'Thème Python';
       } else if (this.theme === 'dark') {
         this.theme = 'python';
-        this.themeClass = 'bg-yellow-100 text-blue-950'; // Fond principal très clair, texte bleu foncé
-        this.themeSection = 'bg-yellow-50 text-blue-950'; // Un jaune un peu plus marqué pour la section
-        this.themeDiv = 'bg-blue-50 text-blue-950'; // Fond bleu ultra clair pour bien distinguer les blocs internes
+        this.themeClass = 'bg-blue-500 text-blue-950'; // Fond principal très clair, texte bleu foncé
+        this.themeSection = 'bg-blue-200 text-blue-950'; // Un jaune un peu plus marqué pour la section
+        this.themeDiv = 'bg-yellow-300 text-blue-950'; // Fond bleu ultra clair pour bien distinguer les blocs internes
         this.buttonText = 'Thème clair';
 
       } else {
         this.theme = 'light';
         this.themeClass = 'bg-slate-200 text-black'; // Classes pour mode clair
         this.themeSection = 'bg-slate-100 text-black' ;
+        this.themeDiv = 'bg-white text-black' ;
         this.buttonText = 'Thème sombre';
       }
     },
