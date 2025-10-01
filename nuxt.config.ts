@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true } ,
   app: {
     head: {
-      title: 'lordrag',
+      title: 'lordraghul - Linktree',
       meta: [
         { name: 'description', content: 'Description de mon projet' },
       ],
