@@ -10,10 +10,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true } ,
   app: {
+    baseURL: '/linktree/',
     head: {
       title: 'lordraghul - Linktree',
       meta: [
-        { name: 'description', content: 'Description de mon projet' },
+        { name: 'description', content: 'Linktree de lordraghul - Data Engineer & ML Engineer' },
       ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' }
