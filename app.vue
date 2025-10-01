@@ -57,11 +57,11 @@
       </a>
 
       <a
-        href="https://votre-blog.com"
+        href="https://medium.com/@lyeswtf"
         target="_blank"
-        class="flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-gray-700 text-white hover:bg-emerald-700 transition text-lg"
+        class="flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-gray-700 text-white hover:bg-gray-500 transition text-lg"
       >
-        <img src="@/assets/images/blog.png" alt="Blog" class="w-8 h-8"/>
+        <img src="@/assets/images/medium.svg" alt="Blog" class="w-8 h-8"/>
         <span class="text-center flex-1 font-semibold">Blog</span>
       </a>
 
