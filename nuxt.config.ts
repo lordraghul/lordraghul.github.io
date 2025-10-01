@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true } ,
   ssr: false,
   app: {
-    baseURL: '/lordraghul.github.io/',
+    baseURL: '/',
     head: {
       title: 'lordraghul - Linktree',
       meta: [
